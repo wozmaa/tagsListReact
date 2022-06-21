@@ -1,0 +1,64 @@
+body {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.main {
+  margin-top: 30px;
+}
+
+form {
+  display: flex;
+  height: 50px;
+}
+
+input {
+  width: 400px;
+  border-radius: 4px;
+  outline: white;
+}
+
+.inputBtnActive {
+  background-color: #006eff;
+  color: white;
+  width: 150px;
+}
+
+.inputBtnNotActive {
+  background-color: #006eff37;
+  width: 150px;
+}
+
+.errorText {
+  color: red;
+  margin-top: 10px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.is-error{
+  box-shadow: 3px 2px 1px red;
+}
+
+.is-not-error {
+
+}
+
+.addLists {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  gap: 20px;
+}
+
+.addList {
+  background: #00bfffa8;
+  color: blue;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.btn {
+  border-radius: 15px;
+  margin-right: 1px;
+  margin-left: 15px;
+}
